@@ -1,2 +1,15 @@
 # CAC-Grading-Utility
-The CAC Grading Utility is a Matlab package used for semi-automated CAC quantification and human observer CAC quantification from CT images.
+
+User Guide
+
+--cacanalyzer.m-- 
+
+File directory and filenames must be specified. Additionally, the image size and desired ROI size should be defined, or left at the default settings.
+
+This software currently supports DICOM image volumes only.
+
+--cacinput.m--
+
+This program gathers CAC user input for human observer comparison.
+
+
